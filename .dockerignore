@@ -25,6 +25,7 @@
 **/build
 **/dist
 **/.kilocode
+**/.specify
 **/docs
 LICENSE
 README.md
