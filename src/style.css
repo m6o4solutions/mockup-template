@@ -1,39 +1,39 @@
 @import "tailwindcss";
 
 @theme {
-	/* ===== COLOR SYSTEM ===== */
-	/* Off-white backgrounds - no pure white */
+	/* ===== color system ===== */
+	/* off-white backgrounds - no pure white */
 	--color-canvas: #f8fafc;
 	--color-surface: #f1f5f9;
 	--color-muted: #e2e8f0;
 
-	/* Off-black & grays - cool slate tones */
+	/* off-black & grays - cool slate tones */
 	--color-ink: #0f172a;
 	--color-ink-muted: #1e293b;
 	--color-text: #334155;
 	--color-text-light: #64748b;
 	--color-border: #cbd5e1;
 
-	/* Primary - cyan accent for tech vibrancy */
+	/* primary - cyan accent for tech vibrancy */
 	--color-primary: #06b6d4;
 	--color-primary-dark: #0891b2;
 	--color-primary-light: #22d3ee;
 	--color-primary-muted: #cffafe;
 
-	/* Semantic colors */
+	/* semantic colors */
 	--color-success: #10b981;
 	--color-warning: #f59e0b;
 	--color-error: #ef4444;
 	--color-info: #3b82f6;
 
-	/* Dark mode palette */
+	/* dark mode palette */
 	--color-dark-bg: #0c0c0c;
 	--color-dark-surface: #171717;
 	--color-dark-border: #262626;
 	--color-dark-text: #e5e5e5;
 	--color-dark-text-muted: #a3a3a3;
 
-	/* ===== ZINC PALETTE (for existing layout compatibility) ===== */
+	/* ===== zinc pallete (for existing layout compatibility) ===== */
 	--color-zinc-50: #f8fafc;
 	--color-zinc-100: #f1f5f9;
 	--color-zinc-200: #e2e8f0;
@@ -46,11 +46,11 @@
 	--color-zinc-900: #0f172a;
 	--color-zinc-950: #0f172a;
 
-	/* White and black */
+	/* white and black */
 	--color-white: #fefefe;
 	--color-black: #0f172a;
 
-	/* ===== SPACING SCALE (8px base grid) ===== */
+	/* ===== spacing scale (8px base grid) ===== */
 	--spacing-xs: 0.5rem; /* 8px */
 	--spacing-sm: 0.75rem; /* 12px */
 	--spacing-md: 1rem; /* 16px */
@@ -61,7 +61,7 @@
 	--spacing-4xl: 6rem; /* 96px */
 	--spacing-5xl: 8rem; /* 128px */
 
-	/* ===== TYPOGRAPHY SCALE ===== */
+	/* ===== typography scale ===== */
 	--font-family-base: "Space Grotesk", system-ui, sans-serif;
 	--font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 
@@ -85,13 +85,13 @@
 	--line-height-normal: 1.5;
 	--line-height-relaxed: 1.75;
 
-	/* ===== SHADOWS ===== */
+	/* ===== shadows ===== */
 	--shadow-sm: 0 1px 2px 0 rgb(15 23 42 / 0.05);
 	--shadow-md: 0 4px 6px -1px rgb(15 23 42 / 0.08), 0 2px 4px -2px rgb(15 23 42 / 0.05);
 	--shadow-lg: 0 10px 15px -3px rgb(15 23 42 / 0.1), 0 4px 6px -4px rgb(15 23 42 / 0.05);
 	--shadow-xl: 0 20px 25px -5px rgb(15 23 42 / 0.1), 0 8px 10px -6px rgb(15 23 42 / 0.05);
 
-	/* ===== BORDERS ===== */
+	/* ===== borders ===== */
 	--radius-sm: 0.375rem; /* 6px */
 	--radius-md: 0.5rem; /* 8px */
 	--radius-lg: 0.75rem; /* 12px */
@@ -101,14 +101,14 @@
 	--border-width: 1px;
 	--border-width-thick: 2px;
 
-	/* ===== MOTION ===== */
+	/* ===== motion ===== */
 	--transition-fast: 150ms ease;
 	--transition-base: 200ms ease;
 	--transition-slow: 300ms ease;
 	--transition-slower: 500ms ease;
 }
 
-/* ===== BASE STYLES ===== */
+/* ===== base styles ===== */
 html {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -119,13 +119,13 @@ body {
 	font-family: var(--font-family-base);
 }
 
-/* ===== ACCESSIBILITY ===== */
+/* ===== accessibility ===== */
 :focus-visible {
 	outline: 2px solid var(--color-primary);
 	outline-offset: 2px;
 }
 
-/* ===== UTILITY CLASSES ===== */
+/* ===== utility classes ===== */
 .text-balance {
 	text-wrap: balance;
 }
@@ -134,14 +134,14 @@ body {
 	text-wrap: pretty;
 }
 
-/* Smooth scroll */
+/* smooth scroll */
 @media (prefers-reduced-motion: no-preference) {
 	html {
 		scroll-behavior: smooth;
 	}
 }
 
-/* Respect user motion preferences */
+/* respect user motion preferences */
 @media (prefers-reduced-motion: reduce) {
 	*,
 	*::before,
