@@ -1,6 +1,6 @@
 {
 	"name": "mockup-template",
-	"description": "Mockup for Orly Airpark website.",
+	"description": "This template system accelerates mockups for landing pages, websites, and web apps.",
 	"private": true,
 	"version": "1.0.0",
 	"type": "module",
